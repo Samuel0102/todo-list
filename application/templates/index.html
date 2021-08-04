@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../static/CSS/medias.css" />
+    <link rel="stylesheet" href="../static/CSS/style.css" />
+    <script src="../static/JS/script.js"></script>
+
+    <title>To Do List</title>
+  </head>
+  <body onload="updateTaskList('ALL')" class="dark-background">
+    <div class="container-fluid h-100">
+      <div class="row h-100">
+        <div class="col-12 d-flex justify-content-center">
+          <div id="content">
+            <header class="text-white d-flex justify-content-between">
+              <h1>TODO</h1>
+              <img
+                alt="toggle-theme"
+                id="toggle-theme-btn"
+                width="32px"
+                height="32px"
+                src="../static/IMG/icon-sun.svg"
+                onclick="changeTheme()"
+              />
+            </header>
+            <main>
+              <section id="new-task" class="d-flex align-items-center task">
+                <input type="checkbox" name="check" class="regular-checkbox" />
+                <input
+                  type="text"
+                  name="task-entry"
+                  id="task-entry"
+                  placeholder="Create a new todo..."
+                />
+                <img
+                  src="../static/IMG/icon-check.svg"
+                  alt="add-task"
+                  onclick="addTask()"
+                />
+              </section>
+              <section id="task-list">
+                <ul onmouseenter="verifyList()"></ul>
+                <div id="task-control">
+                  <span id="task-count">0</span>
+                  <div id="task-filters">
+                    <a href="#" onclick="updateTaskList('ALL')">All</a>
+                    <a href="#" onclick="updateTaskList('ACTIVES')">Active</a>
+                    <a href="#" onclick="updateTaskList('COMPLETES')"
+                      >Completed</a
+                    >
+                  </div>
+                  <a href="#" onclick="clearCompletedTasks()"
+                    >Clear Completed</a
+                  >
+                </div>
+              </section>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
