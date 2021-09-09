@@ -20,10 +20,10 @@ Um projeto de Lista de Tarefas, basicamente. Com possibilidade de controlar dive
 ## Funcionalidades
 | Funcionalidade | Situação |
 | ----------- | ----------- |
-| Adição de tarefas | :clock130: |
-| Exclusão de tarefas | :clock130: |
-| Filtragem de tarefas concluídas e a concluir | :clock130: |
-| Marcação de tarefas concluídas | :clock130: |
+| Adição de tarefas | :heavy_check_mark: |
+| Exclusão de tarefas | :heavy_check_mark: |
+| Filtragem de tarefas concluídas e a concluir | :heavy_check_mark: |
+| Marcação de tarefas concluídas | :heavy_check_mark: |
 
 :clock130: - Em desenvolvimento   :heavy_check_mark: - Finalizado
 
