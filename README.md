@@ -27,6 +27,10 @@ Um projeto de Lista de Tarefas, basicamente. Com possibilidade de controlar dive
 
 :clock130: - Em desenvolvimento   :heavy_check_mark: - Finalizado
 
+## Visual final
+<a href="https://ibb.co/dLLMkZg"><img src="https://i.ibb.co/1ddQRc6/todo1.png" alt="todo1" border="0"></a>
+<a href="https://ibb.co/ssDJfKY"><img src="https://i.ibb.co/P1bzLcH/todo2.png" alt="todo2" border="0"></a>
+
 ## Requisitos para manipular código
 * Necessita da instalação de todos as bibliotecas e dependências do Flask, indicadas no arquivo requirements.txt 
 
