@@ -1,4 +1,4 @@
-# Finans
+# To-Do List
 FullStack Project of a To-Do List, using Flask Microframework and Bootstrap
 
 ## About the project
@@ -6,12 +6,15 @@ FullStack Project of a To-Do List, using Flask Microframework and Bootstrap
 ### Final Visual
 
 #### Desktop
-
-<a href="https://ibb.co/dLLMkZg"><img src="https://i.ibb.co/1ddQRc6/todo1.png" alt="todo1" border="0"></a>
-<a href="https://ibb.co/ssDJfKY"><img src="https://i.ibb.co/P1bzLcH/todo2.png" alt="todo2" border="0"></a>
+Dark Theme | White Theme
+:-------------------------:|:-------------------------:
+<a href="https://ibb.co/dLLMkZg"><img src="https://i.ibb.co/1ddQRc6/todo1.png" alt="todo1" border="0"></a> |  <a href="https://ibb.co/ssDJfKY"><img src="https://i.ibb.co/P1bzLcH/todo2.png" alt="todo2" border="0"></a>
 
 
 #### Mobile
+Dark Theme | White Theme
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/61472839/201501008-916a094e-1a51-465d-9726-258c59104228.png) |  ![image](https://user-images.githubusercontent.com/61472839/201501015-0e3e9b9d-ce31-4312-97af-08cdf0e14372.png)
 
 
 ### Introduction
