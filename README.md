@@ -1,58 +1,65 @@
-### To Do List 
-Projeto de To Do List, utilizando o microframework Flask, Javascript e Bootstrap.  
-:link: https://todolist-front-end-mentor.herokuapp.com/
+# Finans
+FullStack Project of a To-Do List, using Flask Microframework and Bootstrap
 
-# Sobre o projeto
+## About the project
 
-## Introdução
-Um projeto de Lista de Tarefas, basicamente. Com possibilidade de controlar diversas tarefas, podendo desde excluí-las a adicionar novas. Desenvolvido com o microframework Flask do Python, utilizando Javascript e Jquery, além do bom e velho HTML, com CSS e seu mais célebre framework, Bootstrap. Surgiu a partir do desafio da Front-End Mentor.
+### Final Visual
 
-## Especificações
-*Autor*: Samuel Pacheco Ferreira    
-*Descrição*: Projeto de To Do List.  
-*Andamento*: Em desenvolvimento.     
-*Terá atualizações*: Sim.          
+#### Desktop
 
-## Tecnologias
-*Tecnologias utilizadas*: Microframework Flask, Javascript e Jquery, Html, CSS, Bootstrap e Sqlite3.         
-*IDE*: Visual Studio Code.      
-*Estruturação*: Estruturado em HTML e CSS, tem como arquitetura de software o padrão MVC(Model-View-Controller).    
-
-## Funcionalidades
-| Funcionalidade | Situação |
-| ----------- | ----------- |
-| Adição de tarefas | :heavy_check_mark: |
-| Exclusão de tarefas | :heavy_check_mark: |
-| Filtragem de tarefas concluídas e a concluir | :heavy_check_mark: |
-| Marcação de tarefas concluídas | :heavy_check_mark: |
-
-:clock130: - Em desenvolvimento   :heavy_check_mark: - Finalizado
-
-## Visual final
 <a href="https://ibb.co/dLLMkZg"><img src="https://i.ibb.co/1ddQRc6/todo1.png" alt="todo1" border="0"></a>
 <a href="https://ibb.co/ssDJfKY"><img src="https://i.ibb.co/P1bzLcH/todo2.png" alt="todo2" border="0"></a>
 
-## Requisitos para manipular código
-* Necessita da instalação de todos as bibliotecas e dependências do Flask, indicadas no arquivo requirements.txt 
 
-## Execução do sistema
-1. Baixe o zip do repositório
-2. Na pasta raíz "todo-list", crie um ambiente virtual  
-2.1 A criação pode ser feita baixando a biblioteca "virtualenv" e executando na raíz o comando `virtualenv -p python ambiente_virtual`
-3. Dentro do ambiente virtual, execute o comando `pip install -r requeriments.txt` que fará a instalação de todas as dependências necessárias   
-3.1 O acesso ao ambiente pode ser feito digitando na raíz o comando `. ambiente_virtual/bin/activate`, fazendo o ambiente ativar  
-3.1.1 Para desativar: `deactivate`
-4. Com todas as dependências instaladas, basta executar o script "run_server.py" que contém o inicializador do sistema e do servidor  
-4.1 Para execução é necessário, após instalar dependências e ambiente virtual, trocar o interpretador do python padrão para o interpretador "venv". No VSCODE, graças ao diretório ".vscode" é possível apenas clicando no canto inferior esquerdo, onde encontra-se a versão do python. Ao clicar, basta escolher o interpretador, na tela que aparecer no topo, "python 3.8.5 64 bits ('venv': venv)"  
-5. Com o servidor inicializado, basta digitar no navegador "localhost:5000"
+#### Mobile
 
-## Documentações do sistema e outros arquivos
-* Nenhum
 
-## Origem do projeto
-O projeto se originou a partir de um desafio da Front-End Mentor. Diferentemente do pedido, aqui fora utilizado já um back-end operante.
-Design original do projeto, licenciado pela Front-End Mentor: https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW
+### Introduction
+A project of a To-Do List APP. With functionalities to add, delete, update and filter tasks was made with Flask for Back-End and Bootstrap for the Front-End, using the MVC architecture.
 
-## Principais dificuldades
-* Uso extenso de integração entre Back e Front-End
+### Especifications
+*Author*: Samuel Pacheco Ferreira      
+*Description*: FullStack Project of a To-Do List App   
+*Stage*: Finished         
+*Will be updated?*: No          
+
+### Technologies
+*Technologies*: Flask(Python Microframework) and Bootstrap          
+*IDE*: Visual Studio Code          
+*Main Structure*: Jinja2 templates       
+
+### Functionalities
+
+| Functionality | Stage |
+| ----------- | ----------- |
+| Add a task | :heavy_check_mark: |
+| Delete a task | :heavy_check_mark: |
+| Filtering tasks by finished status | :heavy_check_mark: |
+| Updating task | :heavy_check_mark: |
+
+:clock130: - In Development   :heavy_check_mark: - Finished
+
+### Requirements to coding
+* Requires the installation of all Flask libraries and dependencies, indicated in the requirements.txt file 
+
+### System Execution
+1. Download the zip from the repository
+2. In the root folder "todo-list", create a virtual environment  
+2.1 The creation can be done by downloading the "virtualenv" library and running the command `virtualenv -p python virtual_environment` from root.
+3. Inside the virtual environment, run the command `pip install -r requirements.txt` which will install all the necessary dependencies   
+3.1 The environment can be accessed by typing `. virtual_environment/bin/activate` in the root, making the environment activate  
+3.1.1 To deactivate: `deactivate`.
+4. With all dependencies installed, just run the script "run_server.py" which contains the system and server initializer  
+4.1 For execution it is necessary, after installing dependencies and the virtual environment, to change the default python interpreter to the "venv" interpreter. In VSCODE, thanks to the directory ".vscode" it is possible just by clicking on the bottom left corner, where you find the python version. When you click, just choose the interpreter, on the screen that appears at the top, "python 3.8.5 64 bit ('venv': venv)"  
+5. With the server booted up, just type in the browser "localhost:5000"
+
+### Documentation or other files
+:link: 
+
+### Project Origin
+* The project is originated from a challenge by Front-End Mentor. Unlike the request, here a working back-end was already used.
+Original design of the project, licensed by Front-End Mentor: https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW
+
+### Main Challenges of the project
+* CRUD creating process
 
